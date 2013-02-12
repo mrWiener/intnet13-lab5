@@ -5,6 +5,8 @@ import java.io.*;
 
 public class Server {
 	public static void main(String[] args) {
+		new Certificate("/Users/Lucas/.keystore");
+		
 		SSLServerSocketFactory ssf = (SSLServerSocketFactory) SSLServerSocketFactory.getDefault();
 		
 		System.out.println("Stšder:");
